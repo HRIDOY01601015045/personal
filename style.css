@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1280px;
+    margin: auto;
+}
+#nav-bar {
+    background-color: dodgerblue;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-bar h1 {
+    margin-left: 10px;
+    color: aliceblue;
+}
+#nav-bar ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 10px;
+}
+#nav-bar ul li {
+    list-style: none;
+}
+#nav-bar ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    gap: 20px;
+    padding: 8px 20px;
+    border-radius: 4px;
+    transition: 1s;
+}
+#nav-bar ul li a:hover {
+    background-color: aqua;
+    color: black;
+}
+.menu {
+    display: none;
+}
+#click {
+    display: none;
+}
+
+
+/* hero-area code start  */
+
+#hero-area {
+    background-image: url(images/me.jpeg);
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+#hero-contant {
+    padding-top: 100px;
+    margin-left: 10px;
+    /* width: 800px;  */
+}
+#hero-contant  h1 {
+    color: magenta;
+    font-size: 40px;
+    width: 500px;
+}
+#hero-contant  p {
+    color: rgb(232, 21, 39);
+    font-size: 20px;
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn {
+    padding: 7px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;  
+}
+.btn:hover {
+   background-image: linear-gradient(to bottom, red, yellow ,black);
+}
+
+
+/* second section code start  */
+
+#second {
+    margin-bottom: 60px; 
+}
+#second p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+#second h3 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.all-parent { 
+    width: 1280px;  
+    margin: auto;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+}
+.box {
+    width: 350px;
+    text-align: center;
+    /* border: 1px solid red;  */
+    background-color: rgb(186, 206, 206);
+    border-radius: 5px;
+}
+.box h2 {
+    margin: 10px 0px;
+}
+.box img {
+    max-width: 100%;
+}
+.box-btn{
+    margin: 20px 0px;
+    background-color: yellow;
+    border: none;
+    padding: 7px 24px;
+    cursor: pointer;
+    transition: 1s;
+}
+.box-btn:hover {
+    background-color: aliceblue;
+}
